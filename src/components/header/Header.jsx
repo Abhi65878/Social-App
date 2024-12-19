@@ -1,4 +1,5 @@
 import React from "react";
+import ImgCom from "/src/assets/ImgCom.png";
 import { Container, Form, FormControl, Image } from "react-bootstrap";
 import {
   FaPlus,
@@ -18,7 +19,7 @@ const Header = () => {
       >
         <div className="d-flex align-items-center">
           <div className="image me-3">
-            <img src="src\\assets\\image\\ImgCom.png" alt="img" height="40px" />
+            <img src={ImgCom} alt="img" height="40px" />
           </div>
           <Form className="d-none d-md-flex align-items-center">
             <FormControl
