@@ -1,6 +1,9 @@
 import React from 'react'
 import "./Post.css"
-export default function Post({key, name, user_image, post_image, content, likes, comments, shares}) {
+import Img1 from "/src/assets/Img1.jpg";
+
+export default function Post({ key, name, user_image, post_image, content, likes, comments, shares }) {
+  console.log(post_image);
   return (
     <div className="main-container">
       <div className="first-div">
@@ -13,7 +16,8 @@ export default function Post({key, name, user_image, post_image, content, likes,
         </button>
       </div>
       <div className="second-div">
-        <img src={post_image} alt="" />
+        <img src={Img1} alt="" />
+        
       </div>
       <div className="third-div">
         <p>{content}</p>

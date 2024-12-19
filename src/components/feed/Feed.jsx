@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import "./Feed.css";
 import Post from "../Post/Post";
-
+import Img1 from "/src/assets/Img1.jpg"
+import Img2 from "/src/assets/Img2.jpg";
 const Feed = () => {
   const initialPosts = [
     {
       id: 1,
       name: "Eleanor Pena",
       image: "https://via.placeholder.com/40",
-      postImage: "src/assets/image/Img1.jpg",
+      postImage : {Img1},
       content:
         "Lorem ipsum dolor sit amet consectetur. Faucibus amet porttitor pulvinar enim.",
       likes: 0,
@@ -19,7 +20,7 @@ const Feed = () => {
       id: 2,
       name: "Eleanor Pena",
       image: "https://via.placeholder.com/40",
-      postImage: "src/assets/image/Img2.jpg",
+      postImage: {Img2},
       content:
         "Some example code snippet in the post with lorem ipsum text here.",
       likes: 0,
