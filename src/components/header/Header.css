@@ -1,0 +1,65 @@
+.header-container {
+  font-family: "Josefin Sans", serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  z-index: 1000; 
+  border-bottom: 2px solid rgb(201, 199, 199);
+}
+
+.sub-header {
+  display: flex;
+  gap: 50px;
+}
+
+.logo {
+  font-size: 1.8rem;
+  
+}
+.middle {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  gap: 20px;
+}
+
+.down-icon {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.image {
+  size: 80px;
+}
+
+.search-bar {
+  width: 250px;
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 568px) {
+
+  .search-bar {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 376px) {
+
+  .logo {
+    font-size: 1.5rem;
+  }
+}

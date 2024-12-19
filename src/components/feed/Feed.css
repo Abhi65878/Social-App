@@ -1,0 +1,86 @@
+.feed-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  margin-top: 120px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+.card-footer {
+  display: flex;
+  
+  padding: 10px;
+  border-top: 1px solid #eee;
+  background-color: #f9f9f9;
+}
+
+.post-img {
+width: 97%;
+  margin-left: 8px;
+  border-radius: 5px;
+  
+}
+
+.icon-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.icon-btn:hover {
+  color: #007bff;
+}
+
+.icon-btn span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .feed-container {
+    padding: 5px;
+  }
+
+  .profile-img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .icon-btn {
+    font-size: 14px;
+  }
+}
